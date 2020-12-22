@@ -47,7 +47,7 @@ ip = input("IP?\n")
 mask = input("Masca?\n")
 nr_subretele = int(input("Cate retele a dat nebunu?(nu uita de alea intermediare)\n"))
 
-if nr_subretele != 0:
+if nr_subretele > 1:
     print("\nLa final programul scuipa retelele in ordine\n"
           "Daca primeste input 2 la numarul de hosturi, completeaza automat restul cu 2\n")
 
