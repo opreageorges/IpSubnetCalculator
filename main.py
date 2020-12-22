@@ -42,7 +42,6 @@ def calc_sub_ret(masti, base_ip, base_mask, base_nr_hosturi):
 
 # ////////////
 
-
 ip = input("IP?\n")
 mask = input("Masca?\n")
 nr_subretele = int(input("Cate retele a dat nebunu?(nu uita de alea intermediare)\n"))
