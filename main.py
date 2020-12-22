@@ -57,6 +57,7 @@ if nr_subretele > 1:
     hosts = int(input())
     nr_hosturi.insert(0, hosts)
 
+
     for i in range(1, nr_subretele):
         if i-1 >= 0 and nr_hosturi[i-1] != 2:
             print("Nr de hosturi al subretelei", i + 1)
